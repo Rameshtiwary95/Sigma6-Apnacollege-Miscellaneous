@@ -1,0 +1,21 @@
+# Ignore files/folders outside project scope
+../*
+../../*
+
+# Ignore system and unnecessary files
+*.lnk
+*.url
+*.ini
+*.log
+*.pdf
+*.mp4
+*.pptx
+*.ogg
+
+# Ignore node_modules
+node_modules/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
