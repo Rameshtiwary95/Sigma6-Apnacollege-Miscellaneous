@@ -1,34 +1,21 @@
-*.pdf
-*.mp4
-*.ogg
-*.pptx
+# Ignore files/folders outside project scope
+../*
+../../*
+
+# Ignore system and unnecessary files
 *.lnk
 *.url
-desktop.ini
-/New folder/
-/AdGuard/
-/Amazonclone/
-/Apna college .url
-/GItDemo/
-/Mdn docs.url
-/Microsoft Edge.lnk
-/New Microsoft PowerPoint Presentation.pptx
-/Nimcet 1/
-/Nimcet/
-/Remove_Pain_Suffering_Early_Morning.ogg
-/Rm/
-/SHUTDOWN.lnk
-/Sem 6/
-/Sigma 6.0 Apna college/
-/Slack.lnk
-/Zoom Workplace.lnk
-/cssproject/node_modules/
-/direction/
-/kumbh 2025/
-/link to device/
-/petadoption/
-/sigma6.0Html.lnk
-/stack overflow.url
-/syllabus 2025.pdf
-/videoplayback (31).mp4
-/w3 school.url
+*.ini
+*.log
+*.pdf
+*.mp4
+*.pptx
+*.ogg
+
+# Ignore node_modules
+node_modules/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
